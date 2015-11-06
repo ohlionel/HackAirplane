@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackAirplane.CSharp", "HackAirplane.CSharp.csproj", "{DA05C4EE-232B-0043-757C-DED12C789C6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackAirplane.CSharp.Editor", "HackAirplane.CSharp.Editor.csproj", "{508F96E7-9F74-4646-91CF-DCD7C66DE43D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA05C4EE-232B-0043-757C-DED12C789C6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA05C4EE-232B-0043-757C-DED12C789C6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA05C4EE-232B-0043-757C-DED12C789C6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA05C4EE-232B-0043-757C-DED12C789C6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{508F96E7-9F74-4646-91CF-DCD7C66DE43D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{508F96E7-9F74-4646-91CF-DCD7C66DE43D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{508F96E7-9F74-4646-91CF-DCD7C66DE43D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{508F96E7-9F74-4646-91CF-DCD7C66DE43D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
