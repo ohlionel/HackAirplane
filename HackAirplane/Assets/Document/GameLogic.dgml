@@ -1,0 +1,490 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph DataVirtualized="True" Layout="Sugiyama" ZoomLevel="-1" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="021680c0-bac3-4cea-b9f0-32bee848933f1" Category="CodeSchema_Method" Bounds="420.618272398492,-1603.04858886719,88.3333333333335,25.24" Label="PlaneFire" />
+    <Node Id="07c4dcde-7d56-4a21-b226-54811c3573a01" Category="CodeSchema_Method" Bounds="-709.991993408203,-1018.61439463033,104.96,25.24" Label="PlayerShoot" />
+    <Node Id="0b4f5d36-b902-4375-a456-258d8b68772a1" Category="CodeSchema_Field" Bounds="-526.170287272135,-963.373527833451,70.7933333333333,25.2399999999998" Label="blood" />
+    <Node Id="0c236062-ac9c-4718-8a43-4af5d772dfbc1" Bounds="-193.005166397095,-1217.60510991352,55.43,25.2399999999998" Label="Num5" />
+    <Node Id="2d3bedc0-040a-4a55-abe7-8e3ed19acecb1" Category="CodeSchema_Method" Bounds="-1574.12741648989,-1048.53286749024,113.126666666667,25.24" Label="BulletDestory" />
+    <Node Id="3f5abf75-a09c-4191-bec4-ce463abbbed51" Bounds="-107.575147476196,-1217.60564331196,55.43,25.2399999999998" Label="Num1" />
+    <Node Id="446be96f-8566-42af-b635-58d8f4b1ca3a1" Category="CodeSchema_Field" Bounds="-1623.96488841372,-1772.87172144253,99.9466666666667,25.2399999999998" Label="ArtilleyInfo" />
+    <Node Id="50fa853c-6baa-4584-a9fc-c4a99396b2651" Category="CodeSchema_Field" Bounds="784.47809987245,-1605.39807617187,83.4066666666666,25.2399999999998" Label="Position" />
+    <Node Id="54d66a10-1354-4ff9-aef8-71aeba4f70661" Category="CodeSchema_Field" Bounds="673.171333108127,-1550.15796386719,154.94,25.2399999999998" Label="ShootedEffectPrefab" />
+    <Node Id="63ca2ba0-184e-48c3-b367-ed55894e32de1" Category="CodeSchema_Enum" Bounds="-829.744761015549,-1530.78539138103,156.09666666668,111.722146328559" Group="Expanded" Label="Enum GameState" UseManualLocation="True" />
+    <Node Id="7a7a64eb-1786-4980-8f02-93a5834f84f91" Category="CodeSchema_Method" Bounds="-375.646995646159,-1646.54640378822,105.463333333333,25.2399999999998" Label="SpawnPlane" UseManualLocation="True" />
+    <Node Id="87e86822-c86d-4a9c-b499-56bc93b0e1881" Category="CodeSchema_Struct" Bounds="-213.005191650391,-1257.60574331196,180.860044174194,195.721266796874" Group="Expanded" Label="Struct Name-Score" />
+    <Node Id="9ac61d99-0aff-40a5-be63-d2fab82ce8241" Bounds="-735.581658528646,-1946.68333130025,444.596666666667,25.2399999999998" Label="游戏目前计划就一个scene，然后再菜单模式时候背景就是战斗场景(即背景透明)" UseManualLocation="True" />
+    <Node Id="9d83a805-1f07-4357-b286-4801d8cffd971" Category="CodeSchema_Method" Bounds="-2.14514114379729,-1257.60564331196,95.66,25.24" Label="RankWrite" />
+    <Node Id="Angle" Category="CodeSchema_Field" Bounds="-1513.57424510317,-1657.63110839844,91.4766666666667,25.2399999999998" Label="FireAngle" />
+    <Node Id="Artill" Category="CodeSchema_Class" Bounds="218.518241982639,-1753.52940175781,401.730004374186,321.441382242838" Group="Expanded" Label="PlaneController" />
+    <Node Id="Artillery" Category="CodeSchema_Class" Bounds="-1850.99155508039,-2009.0720214425,494.34,281.440399999967" Group="Expanded" Label="ArtilleryControl" />
+    <Node Id="ArtilleryInfo" Category="CodeSchema_Class" Bounds="-1811.57475047427,-1697.63120839844,409.47717203776,266.202098521195" Group="Expanded" Label="ArtilleryInfo" UseManualLocation="True" />
+    <Node Id="Backwardanimation" Category="CodeSchema_Field" Bounds="-1753.05283152896,-1587.15039874443,170.956666666667,25.2399999999998" Label="Firebackwardanimation" />
+    <Node Id="Bullet" Category="CodeSchema_Class" Bounds="-778.853723050027,-1113.85549194478,515.848435777892,324.962264111328" Group="Expanded" Label="PlayerState" UseManualLocation="True" />
+    <Node Id="BulletFly" Category="CodeSchema_Method" Bounds="-1505.81729441958,-1159.01323238282,84.5066666666667,25.24" Label="BulletFly" />
+    <Node Id="BulletInfo" Category="CodeSchema_Field" Bounds="-1791.57461538312,-1531.91029874443,106.783333333333,25.2399999999998" Label="BulletPrefab" />
+    <Node Id="BulletInfo1" Category="CodeSchema_Class" Bounds="-1607.56434926984,-1269.4934398047,387.080331217448,266.200672314453" Group="Expanded" Label="BulletInfo" />
+    <Node Id="Collider" Category="CodeSchema_Field" Bounds="673.171227313856,-1605.3983203125,81.3066666666666,25.24" Label="Collider" />
+    <Node Id="Collider1" Category="CodeSchema_Field" Bounds="-1417.56385203677,-1048.53296386719,81.3066666666664,25.2399999999999" Label="Collider" />
+    <Node Id="CreatFireEffect" Category="CodeSchema_Field" Bounds="-1633.83988841372,-1828.11172144253,119.696666666667,25.2399999999998" Label="CreatFireEffect">
+      <Category Ref="CodeSchema_Method" />
+    </Node>
+    <Node Id="Credit" Category="CodeSchema_Field" Bounds="-691.308721110026,-963.37430185688,67.5933333333332,25.2399999999998" Label="score" />
+    <Node Id="Fight" Bounds="-815.244616158765,-1504.78320344993,50,25.2399999999998" Label="Fight" />
+    <Node Id="FireSoundEffect" Category="CodeSchema_Field" Bounds="-1654.79128204979,-1531.90942871094,127.193333333333,25.2399999999998" Label="FireSoundEffect" />
+    <Node Id="Fl'y" Category="CodeSchema_Method" Bounds="332.883261615614,-1477.32811951497,51.9166666666667,25.2399999999998" Label="Fly" />
+    <Node Id="Inrank" Category="CodeSchema_Method" Bounds="-852.482054570502,-1661.78640378822,93.7033333333333,25.2399999999998" Label="RankState" UseManualLocation="True" />
+    <Node Id="Num" Bounds="-193.005166397094,-1162.36510991352,55.43,25.2399999999998" Label="Num4" />
+    <Node Id="Num3" Bounds="-107.575181274412,-1162.36528686665,55.43,25.2399999999998" Label="Num3" />
+    <Node Id="OnCollider" Category="CodeSchema_Method" Bounds="238.518241982639,-1658.28867596029,130.07,25.2399999999998" Label="OnColliderBullet" />
+    <Node Id="OnColliderPlayer" Category="CodeSchema_Method" Bounds="398.588241880913,-1658.28870117187,132.393333333333,25.2399999999998" Label="OnColliderPlayer" />
+    <Node Id="Plane" Category="CodeSchema_Class" Bounds="653.171227313856,-1645.3984203125,234.71353922526,140.480556445313" Group="Expanded" Label="PlaneInfo" UseManualLocation="True" />
+    <Node Id="PlaneControler" Category="CodeSchema_Class" Bounds="-872.480714709665,-1761.64784721699,666.52405321897,362.58470216452" Group="Expanded" Label="Gamecontrol" UseManualLocation="True" />
+    <Node Id="PlaneSpawn" Category="CodeSchema_Class" Bounds="-1112.60059163411,-1297.60574096822,303.746721191406,210.961017773437" Group="Expanded" Label="PlaneSpawn" UseManualLocation="True" />
+    <Node Id="Position" Category="CodeSchema_Field" Bounds="-496.853632405599,-908.133407081498,83.4066666666668,25.2399999999998" Label="Position" />
+    <Node Id="Prefab" Category="CodeSchema_Field" Bounds="-1314.67735138573,-1103.77319824219,74.1933333333334,25.2399999999998" Label="Prefab" />
+    <Node Id="Rank" Bounds="-738.148119576746,-1504.78332552057,50,25.2399999999998" Label="Rank" />
+    <Node Id="Rank1" Category="CodeSchema_Class" Bounds="-233.005191650391,-1297.60584331196,346.520050506593,255.721466796875" Group="Expanded" Label="Rank" UseManualLocation="True" />
+    <Node Id="RankState" Category="CodeSchema_Method" Bounds="-583.716667277018,-1465.58610379088,117.213333333333,25.2399999999998" Label="InitMenuState" UseManualLocation="True" />
+    <Node Id="SmokeEffect" Category="CodeSchema_Field" Bounds="-1791.57475047427,-1476.66920987724,129.316666666667,25.2399999999998" Label="FireSmokeEffect" />
+    <Node Id="SpawnBullet" Category="CodeSchema_Method" Bounds="-1483.33155508039,-1828.11172144253,106.68,25.2399999999998" Label="SpawnBullet" />
+    <Node Id="Speed" Category="CodeSchema_Field" Bounds="-1417.56401805239,-1103.77319824219,72.8866666666665,25.2399999999998" Label="Speed" />
+    <Node Id="Timer/Counter" Category="CodeSchema_Field" Bounds="-949.997203776042,-1131.88483042133,121.143333333333,25.2399999999998" Label="Timer/Counter" />
+    <Node Id="Update函数每当timer到了一定时间就调用一下" Category="Comment" Bounds="-1092.60059163411,-1257.60564096822,246.946666666667,40.48" Label="update函数每当timer到了一定时间就调用一下" />
+    <Node Id="WatchRotation" Category="CodeSchema_Method" Bounds="-1785.97822174706,-1828.1117214425,121.973333333333,25.2399999999998" Label="WatchRotation" />
+    <Node Id="a2e98a91-6411-4bb6-9c6e-5012831735831" Bounds="-193.005166397094,-1107.12510991352,55.43,25.2399999999998" Label="Num2" />
+    <Node Id="a477a563-e9d6-4b7a-8178-f01442a4e6961" Category="CodeSchema_Method" Bounds="-427.148803710938,-1018.61528686665,94.75,25.2399999999998" Label="Playerhurt" />
+    <Node Id="b659acaa-3332-41d3-9cec-ad0204e557e41" Category="CodeSchema_Method" Bounds="-718.820677490234,-1661.78640378822,105.44,25.2399999999998" Label="OptionState" UseManualLocation="True" />
+    <Node Id="b80c8bb2-68be-41a5-a141-84b54787bf561" Category="PlanePrefab" Bounds="-1092.6005863444,-1131.88482319478,112.603333333333,25.2399999999998" Label="PlanePrefab1">
+      <Category Ref="CodeSchema_Field" />
+    </Node>
+    <Node Id="b927e8c5-431d-4728-bbfc-5ce456c70e071" Category="CodeSchema_Method" Bounds="-1588.05988841372,-1890.97172144253,80.1366666666668,25.2399999999998" Label="OnClick" />
+    <Node Id="b97aea77-8b11-479b-a77e-4ab68d3fe5081" Category="CodeSchema_Method" Bounds="-1021.85889444987,-1187.12492319478,105.463333333333,25.2399999999998" Label="PlaneSpawn" />
+    <Node Id="c314d781-c6f1-406d-8cdf-49146f49e6e81" Category="CodeSchema_Field" Bounds="-683.506848958333,-834.133327833451,81.3066666666667,25.24" Label="Collider" />
+    <Node Id="d448f51f-29a7-45f1-b09a-029976a37de21" Bounds="-815.244609648361,-1477.54321321555,75.0966666666668,25.2399999999998" Label="InitiMenu" />
+    <Node Id="e247998b-a10e-406f-bb25-0f60631ed6031" Category="CodeSchema_Field" Bounds="509.164913023492,-1547.80841552734,91.0833333333335,25.2399999999998" Label="PlaneInfo" />
+    <Node Id="e526e3bc-1926-4422-a1b6-ef485666f55d1" Bounds="-815.244735787684,-1450.30334505247,60.13,25.2399999999998" Label="Option" />
+    <Node Id="f18b6e81-102f-46ed-963e-f2343c0a95501" Category="CodeSchema_Method" Bounds="-424.802091267904,-963.374197999458,90.0566666666667,25.24" Label="PlayerDie" />
+    <Node Id="f83ce17b-1711-4b21-af15-6227defecc521" Category="CodeSchema_Method" Bounds="247.039977313856,-1603.04831951497,113.026666666667,25.2399999999998" Label="PlaneExplode" />
+    <Node Id="fd22b4fe-5775-406d-82eb-0188c0764c0e1" Category="CodeSchema_Method" Bounds="-575.002198893229,-1661.78640378822,94.4133333333333,25.2399999999998" Label="FightState" UseManualLocation="True" />
+    <Node Id="其实有很多正反馈的机制和效果都没有加，先把整个游戏框架实现再加" Bounds="-720.291275024414,-1836.20299184711,392,25.2399999999998" Label="其实有很多正反馈的机制和效果都没有加，先把整个游戏框架实现再加" UseManualLocation="True" />
+    <Node Id="可以写一个Option类来设置效果" Category="Comment" Bounds="-791.28130859375,-1606.54630379088,240.13,40.48" Label="可以写一个Option类来设置效果，不是核心功能后期再去实现" UseManualLocation="True" />
+    <Node Id="后坐力动画，实现了音效和烟雾后再考虑实现" Category="Comment" Bounds="-1791.57449819562,-1657.6305061663,248,40.48" Label="后坐力动画，实现了音效和烟雾后再考虑实现" />
+    <Node Id="子弹的模型" Category="Comment" Bounds="-1524.72225535708,-1324.7336913672,221.396666666667,25.24" Label="attach到子弹上产生一个BulletPrefab" />
+    <Node Id="控制子弹什么时候消失" Category="Comment" Bounds="-1587.56434926984,-1103.77313238282,140,25.24" Label="控制子弹什么时候消失" />
+    <Node Id="控制子弹飞行，这个函数不一定要，因为可以交给物理引擎控制子弹的飞行" Category="Comment" Bounds="-1587.56408315656,-1229.4933398047,248,40.48" Label="控制子弹飞行，这个函数不一定要，因为可以交给物理引擎控制子弹的飞行" />
+    <Node Id="每一个子弹上携带的控制脚本" Bounds="-1627.56434926984,-1364.7337913672,427.080331217448,381.441123876954" Group="Expanded" UseManualLocation="True" />
+    <Node Id="每一个飞机上attach一个controller脚本" Category="Comment" Bounds="298.238324481825,-1824.00958631185,243.116666666667,40.48" Label="每一个飞机上attach一个controller脚本，成为一个飞机Prefab" />
+    <Node Id="每一个飞机上携带的脚本" Bounds="198.518241982639,-1864.00968631185,719.730045471191,451.921766796874" Group="Expanded" UseManualLocation="True" />
+    <Node Id="游戏核心逻辑" Bounds="-1170.48403930664,-1986.68343130025,1303.99889816284,1217.7903034668" Group="Expanded" Label="游戏核心逻辑，都应该是静态类" UseManualLocation="True" />
+    <Node Id="火炮上attach这个脚本" Category="Comment" Bounds="-1372.09735138573,-1656.21997558594,151.613333333333,25.2399999999998" Label="火炮上attach这两个脚本" UseManualLocation="True" />
+    <Node Id="火炮的控制脚本" Bounds="-1870.99155508039,-2049.0721214425,670.507537027992,637.642362304688" Group="Expanded" Label="火炮的控制脚本(场上只有一个火炮)" UseManualLocation="True" />
+    <Node Id="用来和飞机撞判断飞机什么时候攻击" Category="Comment" Bounds="-758.853723050028,-908.133427833451,232,44" Group="Expanded" Label="用来和飞机撞判断飞机什么时候攻击" />
+    <Node Id="由Plane" Category="Comment" Bounds="-758.853629557292,-1073.85447641744,202.683333333333,25.24" Label="由PlaneControl.OnCollider()调用" />
+    <Node Id="由PlaneInfo.PlaneFire()调用" Category="Comment" Bounds="-476.541953938802,-1073.85539917133,193.536666666667,25.24" Label="由PlaneControl.PlaneFire()调用" />
+    <Node Id="由PlayState.PlayerDie调用" Category="Comment" Bounds="-642.383047688802,-1536.06620379088,249.726666666667,40.48" Label="由PlayState.PlayerDie()调用和其他state的返回按钮" UseManualLocation="True" />
+    <Node Id="由用户触碰gui调用" Category="Comment" Bounds="-725.350019938151,-1721.64842641743,122.263333333333,25.2399999999998" Label="由用户触碰gui调用" />
+    <Node Id="监听玩家点击" Category="Comment" Bounds="-1667.43655508039,-1969.0719214425,238.89,40.48" Label="监听玩家点击,对于摁键时间与调用相关方法次数的关系要考虑一下" />
+    <Node Id="目前的飞机生成设计成前面一波飞机消失后10秒钟出现一波，每波的数量会不一样，是一个指数函数" Category="Comment" Bounds="-1150.48401805239,-1403.17126541087,248,55.7200000000003" Label="目前的飞机生成设计成前面一波飞机消失后10秒钟出现一波，在一个大圆上随机出现，每波的数量会不一样，是一个指数函数" />
+    <Node Id="调用PlaneSpawn.PlaneSpawn()" Category="Comment" Bounds="-431.785341611692,-1591.30630378822,205.83,25.2399999999998" Label="去调用PlaneSpawn.PlaneSpawn()" UseManualLocation="True" />
+    <Node Id="这个函数监听玩家的头部转动来改变ArtilleryInfo.Angle" Category="Comment" Bounds="-1830.99155508039,-1898.5918214425,212,40.48" Label="这个函数监听玩家的头部转动来改变ArtilleryInfo.Angle" />
+    <Node Id="除了飞机的自身飞行如何实现有待讨论，其他的部分已经逻辑一致" Bounds="-748.966400146484,-1891.44321899556,488,25.24" Label="除了飞机的自身飞行如何实现有待讨论，其他的部分已经形成了一个完整的游戏循环回路" UseManualLocation="True" />
+    <Node Id="飞机的攻击目前的设计是：" Category="Comment" Bounds="650.24828745383,-1801.37257324219,248,55.7200000000003" Label="飞机的攻击目前的设计是：一旦与玩家距离够进就产生子弹效果，1秒后玩家掉血(而不是对飞机的子弹进行碰撞体检测)" UseManualLocation="True" />
+    <Node Id="飞机的飞行如何实现有待考虑" Category="Comment" Bounds="238.518246356825,-1547.80821951497,240.646666666667,40.48" Label="控制飞机的飞行，由update调用，飞机的飞行如何实现有待考虑" />
+    <Node Id="飞机被击中" Category="Comment" Bounds="263.553280129611,-1713.52877596029,80,25.2399999999998" Label="飞机被击中" />
+    <Node Id="飞机飞的够进了" Category="Comment" Bounds="412.784939065158,-1713.52930175781,104,25.2399999999998" Label="飞机飞的够进了" />
+  </Nodes>
+  <Links>
+    <Link Source="07c4dcde-7d56-4a21-b226-54811c3573a01" Target="Credit" Bounds="-657.512023925781,-993.374389648438,0,21" />
+    <Link Source="63ca2ba0-184e-48c3-b367-ed55894e32de1" Target="Fight" Category="Contains" />
+    <Link Source="63ca2ba0-184e-48c3-b367-ed55894e32de1" Target="Rank" Category="Contains" />
+    <Link Source="63ca2ba0-184e-48c3-b367-ed55894e32de1" Target="d448f51f-29a7-45f1-b09a-029976a37de21" Category="Contains" />
+    <Link Source="63ca2ba0-184e-48c3-b367-ed55894e32de1" Target="e526e3bc-1926-4422-a1b6-ef485666f55d1" Category="Contains" />
+    <Link Source="87e86822-c86d-4a9c-b499-56bc93b0e1881" Target="0c236062-ac9c-4718-8a43-4af5d772dfbc1" Category="Contains" />
+    <Link Source="87e86822-c86d-4a9c-b499-56bc93b0e1881" Target="3f5abf75-a09c-4191-bec4-ce463abbbed51" Category="Contains" />
+    <Link Source="87e86822-c86d-4a9c-b499-56bc93b0e1881" Target="Num" Category="Contains" />
+    <Link Source="87e86822-c86d-4a9c-b499-56bc93b0e1881" Target="Num3" Category="Contains" />
+    <Link Source="87e86822-c86d-4a9c-b499-56bc93b0e1881" Target="a2e98a91-6411-4bb6-9c6e-5012831735831" Category="Contains" />
+    <Link Source="Artill" Target="021680c0-bac3-4cea-b9f0-32bee848933f1" Category="Contains" />
+    <Link Source="Artill" Target="Fl'y" Category="Contains" />
+    <Link Source="Artill" Target="OnCollider" Category="Contains" />
+    <Link Source="Artill" Target="OnColliderPlayer" Category="Contains" />
+    <Link Source="Artill" Target="Plane" Bounds="620.248244169732,-1582.71207264517,23.9344345130781,1.20308326887789" />
+    <Link Source="Artill" Target="e247998b-a10e-406f-bb25-0f60631ed6031" Category="Contains" />
+    <Link Source="Artill" Target="f83ce17b-1711-4b21-af15-6227defecc521" Category="Contains" />
+    <Link Source="Artill" Target="飞机的飞行如何实现有待考虑" Category="Contains" />
+    <Link Source="Artill" Target="飞机被击中" Category="Contains" />
+    <Link Source="Artill" Target="飞机飞的够进了" Category="Contains" />
+    <Link Source="Artillery" Target="446be96f-8566-42af-b635-58d8f4b1ca3a1" Category="Contains" />
+    <Link Source="Artillery" Target="ArtilleryInfo" Bounds="-1605.42620969951,-1727.63172144253,0.208388244764592,21.0020053063479" />
+    <Link Source="Artillery" Target="CreatFireEffect" Category="Contains" />
+    <Link Source="Artillery" Target="SpawnBullet" Category="Contains" />
+    <Link Source="Artillery" Target="WatchRotation" Category="Contains" />
+    <Link Source="Artillery" Target="b927e8c5-431d-4728-bbfc-5ce456c70e071" Category="Contains" />
+    <Link Source="Artillery" Target="监听玩家点击" Category="Contains" />
+    <Link Source="Artillery" Target="这个函数监听玩家的头部转动来改变ArtilleryInfo.Angle" Category="Contains" />
+    <Link Source="ArtilleryInfo" Target="Angle" Category="Contains" />
+    <Link Source="ArtilleryInfo" Target="Backwardanimation" Category="Contains" />
+    <Link Source="ArtilleryInfo" Target="BulletInfo" Category="Contains" />
+    <Link Source="ArtilleryInfo" Target="FireSoundEffect" Category="Contains" />
+    <Link Source="ArtilleryInfo" Target="SmokeEffect" Category="Contains" />
+    <Link Source="ArtilleryInfo" Target="后坐力动画，实现了音效和烟雾后再考虑实现" Category="Contains" />
+    <Link Source="Bullet" Target="07c4dcde-7d56-4a21-b226-54811c3573a01" Category="Contains" />
+    <Link Source="Bullet" Target="0b4f5d36-b902-4375-a456-258d8b68772a1" Category="Contains" />
+    <Link Source="Bullet" Target="Credit" Category="Contains" />
+    <Link Source="Bullet" Target="Position" Category="Contains" />
+    <Link Source="Bullet" Target="a477a563-e9d6-4b7a-8178-f01442a4e6961" Category="Contains" />
+    <Link Source="Bullet" Target="c314d781-c6f1-406d-8cdf-49146f49e6e81" Category="Contains" />
+    <Link Source="Bullet" Target="f18b6e81-102f-46ed-963e-f2343c0a95501" Category="Contains" />
+    <Link Source="Bullet" Target="用来和飞机撞判断飞机什么时候攻击" Category="Contains" />
+    <Link Source="Bullet" Target="由Plane" Category="Contains" />
+    <Link Source="Bullet" Target="由PlaneInfo.PlaneFire()调用" Category="Contains" />
+    <Link Source="BulletInfo1" Target="2d3bedc0-040a-4a55-abe7-8e3ed19acecb1" Category="Contains" />
+    <Link Source="BulletInfo1" Target="BulletFly" Category="Contains" />
+    <Link Source="BulletInfo1" Target="Collider1" Category="Contains" />
+    <Link Source="BulletInfo1" Target="Prefab" Category="Contains" />
+    <Link Source="BulletInfo1" Target="Speed" Category="Contains" />
+    <Link Source="BulletInfo1" Target="控制子弹什么时候消失" Category="Contains" />
+    <Link Source="BulletInfo1" Target="控制子弹飞行，这个函数不一定要，因为可以交给物理引擎控制子弹的飞行" Category="Contains" />
+    <Link Source="CreatFireEffect" Target="446be96f-8566-42af-b635-58d8f4b1ca3a1" Bounds="-1574.0517578125,-1802.87194824219,0,21" />
+    <Link Source="OnCollider" Target="f83ce17b-1711-4b21-af15-6227defecc521" Bounds="303.553253173828,-1633.04870605469,0,21" />
+    <Link Source="OnColliderPlayer" Target="021680c0-bac3-4cea-b9f0-32bee848933f1" Bounds="464.784912109375,-1633.04870605469,0,21" />
+    <Link Source="Plane" Target="50fa853c-6baa-4584-a9fc-c4a99396b2651" Category="Contains" />
+    <Link Source="Plane" Target="54d66a10-1354-4ff9-aef8-71aeba4f70661" Category="Contains" />
+    <Link Source="Plane" Target="Collider" Category="Contains" />
+    <Link Source="PlaneControler" Target="63ca2ba0-184e-48c3-b367-ed55894e32de1" Category="Contains" />
+    <Link Source="PlaneControler" Target="7a7a64eb-1786-4980-8f02-93a5834f84f91" Category="Contains" />
+    <Link Source="PlaneControler" Target="Bullet" Bounds="-533.94716438773,-1399.06314505247,8.03156446475793,276.212587500219" />
+    <Link Source="PlaneControler" Target="Inrank" Category="Contains" />
+    <Link Source="PlaneControler" Target="PlaneSpawn" Bounds="-839.585792019504,-1399.06314505247,103.534755114976,95.3606421278732" />
+    <Link Source="PlaneControler" Target="Rank1" Bounds="-327.521943575032,-1399.06314505247,111.63758650628,95.6039289705209" />
+    <Link Source="PlaneControler" Target="RankState" Category="Contains" />
+    <Link Source="PlaneControler" Target="b659acaa-3332-41d3-9cec-ad0204e557e41" Category="Contains" />
+    <Link Source="PlaneControler" Target="fd22b4fe-5775-406d-82eb-0188c0764c0e1" Category="Contains" />
+    <Link Source="PlaneControler" Target="可以写一个Option类来设置效果" Category="Contains" />
+    <Link Source="PlaneControler" Target="由PlayState.PlayerDie调用" Category="Contains" />
+    <Link Source="PlaneControler" Target="由用户触碰gui调用" Category="Contains" />
+    <Link Source="PlaneControler" Target="调用PlaneSpawn.PlaneSpawn()" Category="Contains" />
+    <Link Source="PlaneSpawn" Target="Timer/Counter" Category="Contains" />
+    <Link Source="PlaneSpawn" Target="Update函数每当timer到了一定时间就调用一下" Category="Contains" />
+    <Link Source="PlaneSpawn" Target="b80c8bb2-68be-41a5-a141-84b54787bf561" Category="Contains" />
+    <Link Source="PlaneSpawn" Target="b97aea77-8b11-479b-a77e-4ab68d3fe5081" Category="Contains" />
+    <Link Source="Rank1" Target="87e86822-c86d-4a9c-b499-56bc93b0e1881" Category="Contains" />
+    <Link Source="Rank1" Target="9d83a805-1f07-4357-b286-4801d8cffd971" Category="Contains" />
+    <Link Source="SpawnBullet" Target="446be96f-8566-42af-b635-58d8f4b1ca3a1" Bounds="-1532.83435058594,-1802.87194824219,69.6602783203125,26.7764892578125" />
+    <Link Source="Update函数每当timer到了一定时间就调用一下" Target="b97aea77-8b11-479b-a77e-4ab68d3fe5081" Bounds="-969.127258300781,-1217.12524414063,0,21" />
+    <Link Source="WatchRotation" Target="446be96f-8566-42af-b635-58d8f4b1ca3a1" Bounds="-1690.31945800781,-1802.87194824219,73.4051513671875,26.907958984375" />
+    <Link Source="a477a563-e9d6-4b7a-8178-f01442a4e6961" Target="0b4f5d36-b902-4375-a456-258d8b68772a1" Bounds="-457.357482910156,-993.374389648438,52.2250061035156,25.990234375" />
+    <Link Source="a477a563-e9d6-4b7a-8178-f01442a4e6961" Target="f18b6e81-102f-46ed-963e-f2343c0a95501" Bounds="-379.773681640625,-993.374389648438,0,21" />
+    <Link Source="b927e8c5-431d-4728-bbfc-5ce456c70e071" Target="CreatFireEffect" Bounds="-1565.40954589844,-1865.73181152344,12.095947265625,29.30322265625" />
+    <Link Source="b927e8c5-431d-4728-bbfc-5ce456c70e071" Target="SpawnBullet" Bounds="-1524.46203613281,-1865.73181152344,62.550048828125,33.388427734375" />
+    <Link Source="fd22b4fe-5775-406d-82eb-0188c0764c0e1" Target="7a7a64eb-1786-4980-8f02-93a5834f84f91" Bounds="-480.588865559896,-1645.65507858206,95.9666662724771,7.1384999728657" />
+    <Link Source="可以写一个Option类来设置效果" Target="b659acaa-3332-41d3-9cec-ad0204e557e41" Bounds="-669.569150334925,-1627.57611526819,1.71142177963532,21.0296591928698" />
+    <Link Source="后坐力动画，实现了音效和烟雾后再考虑实现" Target="Backwardanimation" Bounds="-1667.57446289063,-1617.15014648438,0,21" />
+    <Link Source="子弹的模型" Target="Prefab" Bounds="-1272.67209804797,-1217.85533554686,116.12894523213,188.062640306866" />
+    <Link Source="控制子弹什么时候消失" Target="2d3bedc0-040a-4a55-abe7-8e3ed19acecb1" Bounds="-1517.56420898438,-1078.533203125,0,21" />
+    <Link Source="控制子弹飞行，这个函数不一定要，因为可以交给物理引擎控制子弹的飞行" Target="BulletFly" Bounds="-1463.56420898438,-1189.01318359375,0,21" />
+    <Link Source="每一个子弹上携带的控制脚本" Target="BulletInfo1" Category="Contains" />
+    <Link Source="每一个子弹上携带的控制脚本" Target="子弹的模型" Category="Contains" />
+    <Link Source="每一个飞机上attach一个controller脚本" Target="Artill" Bounds="419.715838812006,-1783.52988631188,0.0411553439193995,21.0011929567684" />
+    <Link Source="每一个飞机上携带的脚本" Target="Artill" Category="Contains" />
+    <Link Source="每一个飞机上携带的脚本" Target="Plane" Category="Contains" />
+    <Link Source="每一个飞机上携带的脚本" Target="每一个飞机上attach一个controller脚本" Category="Contains" />
+    <Link Source="每一个飞机上携带的脚本" Target="飞机的攻击目前的设计是：" Category="Contains" />
+    <Link Source="游戏核心逻辑" Target="9ac61d99-0aff-40a5-be63-d2fab82ce8241" Category="Contains" />
+    <Link Source="游戏核心逻辑" Target="Bullet" Category="Contains" />
+    <Link Source="游戏核心逻辑" Target="PlaneControler" Category="Contains" />
+    <Link Source="游戏核心逻辑" Target="PlaneSpawn" Category="Contains" />
+    <Link Source="游戏核心逻辑" Target="Rank1" Category="Contains" />
+    <Link Source="游戏核心逻辑" Target="其实有很多正反馈的机制和效果都没有加，先把整个游戏框架实现再加" Category="Contains" />
+    <Link Source="游戏核心逻辑" Target="目前的飞机生成设计成前面一波飞机消失后10秒钟出现一波，每波的数量会不一样，是一个指数函数" Category="Contains" />
+    <Link Source="游戏核心逻辑" Target="除了飞机的自身飞行如何实现有待讨论，其他的部分已经逻辑一致" Category="Contains" />
+    <Link Source="火炮上attach这个脚本" Target="Artillery" Bounds="-1404.00614391158,-1722.32130031282,90.4473415671405,66.1013247269161" />
+    <Link Source="火炮上attach这个脚本" Target="ArtilleryInfo" Bounds="-1393.37610345096,-1630.97997558591,47.5205641473801,12.0994911528971" />
+    <Link Source="火炮的控制脚本" Target="Artillery" Category="Contains" />
+    <Link Source="火炮的控制脚本" Target="ArtilleryInfo" Category="Contains" />
+    <Link Source="火炮的控制脚本" Target="火炮上attach这个脚本" Category="Contains" />
+    <Link Source="用来和飞机撞判断飞机什么时候攻击" Target="c314d781-c6f1-406d-8cdf-49146f49e6e81" Bounds="-642.853698730469,-864.134338378906,0,21" />
+    <Link Source="由Plane" Target="07c4dcde-7d56-4a21-b226-54811c3573a01" Bounds="-657.512023925781,-1048.61437988281,0,21" />
+    <Link Source="由PlaneInfo.PlaneFire()调用" Target="a477a563-e9d6-4b7a-8178-f01442a4e6961" Bounds="-379.773681640625,-1048.61437988281,0,21" />
+    <Link Source="由PlayState.PlayerDie调用" Target="RankState" Bounds="-522.507246864696,-1495.58630052137,2.54357531223229,21.0650024406646" />
+    <Link Source="由用户触碰gui调用" Target="Inrank" Bounds="-767.530094290061,-1696.40842641743,73.4994436937316,31.1134351475116" />
+    <Link Source="由用户触碰gui调用" Target="b659acaa-3332-41d3-9cec-ad0204e557e41" Bounds="-665.420989156711,-1696.40842641743,0.805807434670328,25.6264131548805" />
+    <Link Source="由用户触碰gui调用" Target="fd22b4fe-5775-406d-82eb-0188c0764c0e1" Bounds="-635.45787532872,-1696.40842641743,70.6603780373795,31.0055337955891" />
+    <Link Source="监听玩家点击" Target="b927e8c5-431d-4728-bbfc-5ce456c70e071" Bounds="-1548.10424804688,-1928.59167480469,0,28.619873046875" />
+    <Link Source="目前的飞机生成设计成前面一波飞机消失后10秒钟出现一波，每波的数量会不一样，是一个指数函数" Target="PlaneSpawn" Bounds="-1016.48334552671,-1347.45132096748,14.8521483501854,41.3753027082403" />
+    <Link Source="调用PlaneSpawn.PlaneSpawn()" Target="7a7a64eb-1786-4980-8f02-93a5834f84f91" Bounds="-327.509875946019,-1612.35834513892,2.26944911630954,21.051944617546" />
+    <Link Source="这个函数监听玩家的头部转动来改变ArtilleryInfo.Angle" Target="WatchRotation" Bounds="-1724.74682617188,-1858.11181640625,0,20.9998779296875" />
+    <Link Source="飞机的攻击目前的设计是：" Target="Plane" Bounds="772.01417463367,-1745.65257324219,1.71157700641629,91.2560137402772" />
+    <Link Source="飞机的飞行如何实现有待考虑" Target="Fl'y" Bounds="358.841583251953,-1507.32873535156,0,21" />
+    <Link Source="飞机被击中" Target="OnCollider" Bounds="303.553253173828,-1688.28869628906,0,21" />
+    <Link Source="飞机飞的够进了" Target="OnColliderPlayer" Bounds="464.784912109375,-1688.28869628906,0,21" />
+  </Links>
+  <Categories>
+    <Category Id="CodeSchema_Class" Label="类" BasedOn="CodeSchema_Type" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Class" NavigationActionLabel="类" />
+    <Category Id="CodeSchema_Enum" Label="枚举" BasedOn="CodeSchema_Type" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Enum" NavigationActionLabel="枚举" />
+    <Category Id="CodeSchema_Field" Label="字段" BasedOn="CodeSchema_Member" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="CodeSchema_Field" NavigationActionLabel="字段" />
+    <Category Id="CodeSchema_Member" Label="编号" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="CodeSchema_Field" NavigationActionLabel="成员" />
+    <Category Id="CodeSchema_Method" Label="方法" BasedOn="CodeSchema_Member" CanBeDataDriven="True" DefaultAction="Link:Forward:CodeSchema_Calls" Icon="CodeSchema_Method" NavigationActionLabel="方法" />
+    <Category Id="CodeSchema_Struct" Label="结构" BasedOn="CodeSchema_Type" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Struct" NavigationActionLabel="结构" />
+    <Category Id="CodeSchema_Type" Label="类型" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Class" NavigationActionLabel="类型" />
+    <Category Id="Comment" Label="注释" Description="表示在图表中用户定义的注释" CanBeDataDriven="True" IsProviderRoot="False" NavigationActionLabel="注释" />
+    <Category Id="Contains" Label="包含" Description="链接的源是否包含目标对象" CanBeDataDriven="False" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="包含者" IsContainment="True" OutgoingActionLabel="包含" />
+    <Category Id="PlanePrefab" Label="字段" IsTag="True" />
+  </Categories>
+  <Properties>
+    <Property Id="Bounds" DataType="System.Windows.Rect" />
+    <Property Id="CanBeDataDriven" Label="CanBeDataDriven" Description="CanBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CanLinkedNodesBeDataDriven" Label="CanLinkedNodesBeDataDriven" Description="CanLinkedNodesBeDataDriven" DataType="System.Boolean" />
+    <Property Id="DataVirtualized" Label="已虚拟化数据" Description="如果为 true，则图中可以包含表示虚拟化节点/链接(即，不在图中实际创建)的数据的节点和链接。" DataType="System.Boolean" />
+    <Property Id="DefaultAction" Label="DefaultAction" Description="DefaultAction" DataType="System.String" />
+    <Property Id="Expression" DataType="System.String" />
+    <Property Id="Group" Label="组" Description="将节点显示为组" DataType="Microsoft.VisualStudio.GraphModel.GraphGroupStyle" />
+    <Property Id="GroupLabel" DataType="System.String" />
+    <Property Id="Icon" Label="图标" Description="图标" DataType="System.String" />
+    <Property Id="IncomingActionLabel" Label="IncomingActionLabel" Description="IncomingActionLabel" DataType="System.String" />
+    <Property Id="IsContainment" DataType="System.Boolean" />
+    <Property Id="IsEnabled" DataType="System.Boolean" />
+    <Property Id="IsProviderRoot" Label="IsProviderRoot" Description="IsProviderRoot" DataType="System.Boolean" />
+    <Property Id="IsTag" DataType="System.Boolean" />
+    <Property Id="Label" Label="标签" Description="可批注对象的可显示标签" DataType="System.String" />
+    <Property Id="Layout" DataType="System.String" />
+    <Property Id="NavigationActionLabel" Label="NavigationActionLabel" Description="NavigationActionLabel" DataType="System.String" />
+    <Property Id="OutgoingActionLabel" Label="OutgoingActionLabel" Description="OutgoingActionLabel" DataType="System.String" />
+    <Property Id="TargetType" DataType="System.Type" />
+    <Property Id="UseManualLocation" DataType="System.Boolean" />
+    <Property Id="Value" DataType="System.String" />
+    <Property Id="ValueLabel" DataType="System.String" />
+    <Property Id="Visibility" Label="可见性" Description="定义关系图中的节点是否可见" DataType="System.Windows.Visibility" />
+    <Property Id="ZoomLevel" DataType="System.String" />
+  </Properties>
+  <Styles>
+    <Style TargetType="Node" GroupLabel="类别 2" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('Category2')" />
+      <Setter Property="Background" Value="#FF339933" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="注释" ValueLabel="包含注释">
+      <Condition Expression="HasCategory('Comment')" />
+      <Setter Property="Background" Value="#FFFFFACD" />
+      <Setter Property="Stroke" Value="#FFE5C365" />
+      <Setter Property="StrokeThickness" Value="1" />
+      <Setter Property="NodeRadius" Value="2" />
+      <Setter Property="MaxWidth" Value="250" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="结果" ValueLabel="True">
+      <Condition Expression="HasCategory('QueryResult')" />
+      <Setter Property="Background" Value="#FFBCFFBE" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="测试项目" ValueLabel="测试项目">
+      <Condition Expression="HasCategory('CodeMap_TestProject')" />
+      <Setter Property="Icon" Value="CodeMap_TestProject" />
+      <Setter Property="Background" Value="#FF307A69" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Web 项目" ValueLabel="Web 项目">
+      <Condition Expression="HasCategory('CodeMap_WebProject')" />
+      <Setter Property="Icon" Value="CodeMap_WebProject" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Windows 应用商店项目" ValueLabel="Windows 应用商店项目">
+      <Condition Expression="HasCategory('CodeMap_WindowsStoreProject')" />
+      <Setter Property="Icon" Value="CodeMap_WindowsStoreProject" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="电话项目" ValueLabel="电话项目">
+      <Condition Expression="HasCategory('CodeMap_PhoneProject')" />
+      <Setter Property="Icon" Value="CodeMap_PhoneProject" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="可移植库" ValueLabel="可移植库">
+      <Condition Expression="HasCategory('CodeMap_PortableLibraryProject')" />
+      <Setter Property="Icon" Value="CodeMap_PortableLibraryProject" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="WPF 项目" ValueLabel="WPF 项目">
+      <Condition Expression="HasCategory('CodeMap_WpfProject')" />
+      <Setter Property="Icon" Value="CodeMap_WpfProject" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="VSIX 项目" ValueLabel="VSIX 项目">
+      <Condition Expression="HasCategory('CodeMap_VsixProject')" />
+      <Setter Property="Icon" Value="CodeMap_VsixProject" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="建模项目" ValueLabel="建模项目">
+      <Condition Expression="HasCategory('CodeMap_ModelingProject')" />
+      <Setter Property="Icon" Value="CodeMap_ModelingProject" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="程序集" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('CodeSchema_Assembly')" />
+      <Setter Property="Background" Value="#FF094167" />
+      <Setter Property="Stroke" Value="#FF094167" />
+      <Setter Property="Icon" Value="CodeSchema_Assembly" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="命名空间" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('CodeSchema_Namespace')" />
+      <Setter Property="Background" Value="#FF0E619A" />
+      <Setter Property="Stroke" Value="#FF0E619A" />
+      <Setter Property="Icon" Value="CodeSchema_Namespace" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="接口" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('CodeSchema_Interface')" />
+      <Setter Property="Background" Value="#FF1382CE" />
+      <Setter Property="Stroke" Value="#FF1382CE" />
+      <Setter Property="Icon" Value="CodeSchema_Interface" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="结构" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('CodeSchema_Struct')" />
+      <Setter Property="Background" Value="#FF1382CE" />
+      <Setter Property="Stroke" Value="#FF1382CE" />
+      <Setter Property="Icon" Value="CodeSchema_Struct" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="枚举" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('CodeSchema_Enum')" />
+      <Setter Property="Background" Value="#FF1382CE" />
+      <Setter Property="Stroke" Value="#FF1382CE" />
+      <Setter Property="Icon" Value="CodeSchema_Enum" />
+      <Setter Property="LayoutSettings" Value="List" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="委托" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('CodeSchema_Delegate')" />
+      <Setter Property="Background" Value="#FF1382CE" />
+      <Setter Property="Stroke" Value="#FF1382CE" />
+      <Setter Property="Icon" Value="CodeSchema_Delegate" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="类" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('CodeSchema_Type')" />
+      <Setter Property="Background" Value="#FF1382CE" />
+      <Setter Property="Stroke" Value="#FF1382CE" />
+      <Setter Property="Icon" Value="CodeSchema_Class" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="属性" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('CodeSchema_Property')" />
+      <Setter Property="Background" Value="#FFE0E0E0" />
+      <Setter Property="Stroke" Value="#FFE0E0E0" />
+      <Setter Property="Icon" Value="CodeSchema_Property" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="方法" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('CodeSchema_Method') Or HasCategory('CodeSchema_CallStackUnresolvedMethod')" />
+      <Setter Property="Background" Value="#FFE0E0E0" />
+      <Setter Property="Stroke" Value="#FFE0E0E0" />
+      <Setter Property="Icon" Value="CodeSchema_Method" />
+      <Setter Property="LayoutSettings" Value="List" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="事件" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('CodeSchema_Event')" />
+      <Setter Property="Background" Value="#FFE0E0E0" />
+      <Setter Property="Stroke" Value="#FFE0E0E0" />
+      <Setter Property="Icon" Value="CodeSchema_Event" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="字段" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('CodeSchema_Field')" />
+      <Setter Property="Background" Value="#FFE0E0E0" />
+      <Setter Property="Stroke" Value="#FFE0E0E0" />
+      <Setter Property="Icon" Value="CodeSchema_Field" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Out 参数" ValueLabel="具有类别">
+      <Condition Expression="CodeSchemaProperty_IsOut = 'True'" />
+      <Setter Property="Icon" Value="CodeSchema_OutParameter" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="参数" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('CodeSchema_Parameter')" />
+      <Setter Property="Icon" Value="CodeSchema_Parameter" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="局部变量" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('CodeSchema_LocalExpression')" />
+      <Setter Property="Icon" Value="CodeSchema_LocalExpression" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="外部" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('Externals')" />
+      <Setter Property="Background" Value="#FF424242" />
+      <Setter Property="Stroke" Value="#FF424242" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="继承自" ValueLabel="True">
+      <Condition Expression="HasCategory('InheritsFrom')" />
+      <Setter Property="Stroke" Value="#FF00A600" />
+      <Setter Property="StrokeDashArray" Value="2 0" />
+      <Setter Property="DrawArrow" Value="true" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="实现" ValueLabel="True">
+      <Condition Expression="HasCategory('Implements')" />
+      <Setter Property="Stroke" Value="#8000A600" />
+      <Setter Property="StrokeDashArray" Value="2 2" />
+      <Setter Property="DrawArrow" Value="true" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="调用" ValueLabel="True">
+      <Condition Expression="HasCategory('CodeSchema_Calls')" />
+      <Setter Property="Stroke" Value="#FFFF00FF" />
+      <Setter Property="StrokeDashArray" Value="2 0" />
+      <Setter Property="DrawArrow" Value="true" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="函数指针" ValueLabel="True">
+      <Condition Expression="HasCategory('CodeSchema_FunctionPointer')" />
+      <Setter Property="Stroke" Value="#FFFF00FF" />
+      <Setter Property="StrokeDashArray" Value="2 2" />
+      <Setter Property="DrawArrow" Value="true" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="字段读取" ValueLabel="True">
+      <Condition Expression="HasCategory('CodeSchema_FieldRead')" />
+      <Setter Property="Stroke" Value="#FF00AEEF" />
+      <Setter Property="StrokeDashArray" Value="2 2" />
+      <Setter Property="DrawArrow" Value="true" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="字段写入" ValueLabel="True">
+      <Condition Expression="HasCategory('CodeSchema_FieldWrite')" />
+      <Setter Property="Stroke" Value="#FF00AEEF" />
+      <Setter Property="DrawArrow" Value="true" />
+      <Setter Property="IsHidden" Value="false" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Inherits From" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('InheritsFrom') And Target.HasCategory('CodeSchema_Class')" />
+      <Setter Property="TargetDecorator" Value="OpenArrow" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Implements" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('Implements') And Target.HasCategory('CodeSchema_Interface')" />
+      <Setter Property="TargetDecorator" Value="OpenArrow" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Comment Link" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="Source.HasCategory('Comment')" />
+      <Setter Property="Stroke" Value="#FFE5C365" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Cursor Location Changed" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="IsCursorLocation" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Disabled Breakpoint Location Changed" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="DisabledBreakpointCount" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Enabled Breakpoint Location Changed" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="EnabledBreakpointCount" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Instruction Pointer Location Changed" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="IsInstructionPointerLocation" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Current Callstack Changed" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="IsCurrentCallstackFrame" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="返回" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('CodeSchema_ReturnTypeLink')" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="引用" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('References')" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="使用特性" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('CodeSchema_AttributeUse')" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="解决方案文件夹" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('CodeMap_SolutionFolder')" />
+      <Setter Property="Background" Value="#FFDEBA83" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="项目引用" ValueLabel="项目引用">
+      <Condition Expression="HasCategory('CodeMap_ProjectReference')" />
+      <Setter Property="Stroke" Value="#9A9A9A" />
+      <Setter Property="StrokeDashArray" Value="2 2" />
+      <Setter Property="DrawArrow" Value="true" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="外部引用" ValueLabel="外部引用">
+      <Condition Expression="HasCategory('CodeMap_ExternalReference')" />
+      <Setter Property="Stroke" Value="#9A9A9A" />
+      <Setter Property="StrokeDashArray" Value="2 2" />
+      <Setter Property="DrawArrow" Value="true" />
+    </Style>
+  </Styles>
+</DirectedGraph>
