@@ -69,10 +69,12 @@ namespace Assets.MyScrpt.Airplane
 
         public void OnColiderBullet()
         {
+            Debug.Log("OnColiderBullet");
         }
 
         public void OnColiderPlayer()
         {
+            Debug.Log("OnColiderPlayer");
         }
 
         private void PlaneExplode()
