@@ -92,7 +92,7 @@
     <Compile Include="Assets\Cardboard\Scripts\VRDevices\CardboardAndroidDevice.cs" />
     <Compile Include="Assets\Cardboard\Scripts\VRDevices\CardboardiOSDevice.cs" />
     <Compile Include="Assets\Cardboard\Scripts\VRDevices\UnityEditorDevice.cs" />
-    <Compile Include="Assets\UserScripts\Airplane\PlaneController.cs" />
+    <Compile Include="Assets\MyScript\Airplane\PlaneController.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Cardboard\Distortion\CardboardDistortion.cginc" />
@@ -101,8 +101,14 @@
     <None Include="Assets\Cardboard\Resources\SkyboxMesh.shader" />
     <None Include="Assets\Cardboard\Resources\SolidColor.shader" />
     <None Include="Assets\Cardboard\Resources\UnlitTexture.shader" />
+    <None Include="Assets\MyDocument\GameLogic.dgml" />
+    <None Include="Assets\MyDocument\test.txt" />
+    <None Include="Assets\MyGUI\test.txt" />
+    <None Include="Assets\MyMaterial\test.txt" />
+    <None Include="Assets\MyModel\test.txt" />
+    <None Include="Assets\MyPrefab\test.txt" />
+    <None Include="Assets\MyScene\test.txt" />
     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
 </Project>
